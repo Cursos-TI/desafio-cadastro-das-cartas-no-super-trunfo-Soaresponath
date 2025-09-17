@@ -3,19 +3,18 @@
 int main() {
 
     //Declaração de variáveis carta 1
-    char carta1[04]; 
     char estado1;                   // letra referente ao estado de A a H
-    char codigo1[10];               // codigo da carta 3 caracteres
-    char nomedacidade1[50];         //nome da cidade com ate 20 caracteres
-    int populacao1;                 // população da cidade
+    char codigo1[20];               // codigo da carta 3 caracteres
+    char cidade1[50];               //nome da cidade com ate 20 caracteres
+    unsigned long int populacao1;   // população da cidade
     float area1;                    // total da área da cidade em km²
     float pib1;                     // pib total da cidade
     int pontosturisticos1;          // número dos pontos turisticos da cidade
-    float densidadepopulacional1;  // quantas pessoas vivem por quilômetro quadrado
-    float pibpercapita1;            //valor médio agregado por pessoa 
+    float densidadepopulacional1;   // quantas pessoas vivem por quilômetro quadrado
+    float pibPerCapita1;            //valor médio agregado por pessoa 
+    float superPoder1;             
                                     
     //Especificadores da carta 1
-
     printf("Carta 1:");
     scanf("%c",carta1);
    
@@ -46,16 +45,16 @@ int main() {
 
 
     //Declaração de variáveis carta 2
-    char carta2[04];
     char estado2;                      // letra referente ao estado de A a H
     char codigo2[10];                  // codigo da carta 3 caracteres
-    char nomedacidade2[50];            //nome da cidade com ate 20 caracteres
-    int populacao2;                    // população da cidade
+    char cidade2[50];                  //nome da cidade com ate 20 caracteres
+    unsigned long int populacao2;      // população da cidade
     float area2;                       // total da área da cidade em km²
     float pib2;                        // pib total da cidade
     int pontosturisticos2;             // número dos pontos turisticos da cidade
-    float densidadepopulacional2;     // quantas pessoas vivem por quilômetro quadrado
+    float densidadepopulacional2;      // quantas pessoas vivem por quilômetro quadrado
     float pibpercapita2;               //valor médio agregado por pessoa 
+    float superPoder2;
 
     //Especificadores da carta 2
 
